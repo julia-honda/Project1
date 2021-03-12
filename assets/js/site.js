@@ -6,7 +6,7 @@ jQuery(function($) {
 });
 
 function confirmSignUp(){
-  var answer = confirm("Are you ready to join the fan club?");
+  var answer = confirm("Are you ready to join the league?");
     if (answer == true) {
       alert("Welcome to the league!");
     }
