@@ -20,6 +20,11 @@ fieldset{
   border-color: transparent;
   background-color: #B0E0E6;
 }
+h1 {
+  font-size: 1.55555em; /*28/18= 1.333333em*/
+  font-weight: bold;
+  padding-bottom: 0.5em; /*9/18=0.5 */
+}
 
 @media screen and (min-width: 336px) {
   #wrap {
