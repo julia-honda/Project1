@@ -21,8 +21,9 @@ fieldset{
   background-color: #B0E0E6;
 }
 h1 {
-  font-size: 200%; /*40/18= 2.222222em*/
+  font-size: 200%; /*or 40/18= 2.222222em*/
   font-weight: bold;
+  padding-top: 0.5em; /*9/18=0.5 */
   padding-bottom: 0.5em; /*9/18=0.5 */
 }
 
@@ -59,7 +60,7 @@ inputs would shift and mess up the format*/
 
 @media screen and (min-width: 580px) {
   h1 {
-    font-size: 200%
+    font-size: 250%
   }
   html {
     display: inline-block;
