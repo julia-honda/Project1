@@ -14,9 +14,9 @@ fieldset{
 }
 
 #content {
-  padding-left: 18px;
-  padding-top: 9px;
-  padding-bottom: 9px;
+  padding-left: 1em; /*18/18= 1em*/
+  padding-top: 0.5em; /*9/18= 0.5em*/
+  padding-bottom: 0.5em; /*9/18= 0.5em*/
   border-color: transparent;
   background-color: #B0E0E6;
 }
