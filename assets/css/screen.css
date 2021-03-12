@@ -21,13 +21,34 @@ fieldset{
   background-color: #B0E0E6;
 }
 h1 {
-  font-size: 1.55555em; /*28/18= 1.333333em*/
+  font-size: 200%; /*40/18= 2.222222em*/
   font-weight: bold;
   padding-bottom: 0.5em; /*9/18=0.5 */
 }
 
+li {
+  padding-bottom: 1em; /*18/18=1em */
+}
+
+[type="date"] {
+  padding-bottom: 0.5em; /*9/18=0.5em */
+}
+
+input {
+  font-family: Merriweather, "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
+  border-color: transparent;
+  background-color: #FFFFE0;
+  overflow: visible;
+}
+
 /*chose 355 px because thats when the
 inputs would shift and mess up the format*/
+
+@media screen and (min-width: 270px) {
+  h1 {
+    font-size: 150%
+  }
+}
 
 @media screen and (min-width: 355px) {
   label {
@@ -37,6 +58,9 @@ inputs would shift and mess up the format*/
 }
 
 @media screen and (min-width: 580px) {
+  h1 {
+    font-size: 200%
+  }
   html {
     display: inline-block;
     justify-content: center;
