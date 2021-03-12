@@ -35,6 +35,10 @@ li {
   padding-bottom: 0.5em; /*9/18=0.5em */
 }
 
+label [for="age-verification"]{
+  font-size: 9px;
+}
+
 input {
   font-family: Merriweather, "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
   border-color: transparent;
