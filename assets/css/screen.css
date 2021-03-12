@@ -26,9 +26,12 @@ h1 {
   padding-bottom: 0.5em; /*9/18=0.5 */
 }
 
-@media screen and (min-width: 336px) {
-  #wrap {
-    display: inline-block;
+/*chose 355 px because thats when the
+inputs would shift and mess up the format*/
+
+@media screen and (min-width: 355px) {
+  label {
+    display: block;
     justify-content: center;
   }
 }
