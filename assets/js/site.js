@@ -6,7 +6,7 @@
   });
 
   function validationEvent() {
-    var a = document.forms["form-one"]["full-name"].value;
+    var a = document.forms["form-one"]["first-name"].value;
     var b = document.forms["form-one"]["last-name"].value;
     var c = document.forms["form-one"]["email"].value;
     var d = document.forms["form-one"]["phone-num"].value;
