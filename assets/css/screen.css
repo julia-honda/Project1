@@ -27,6 +27,13 @@ h1 {
   padding-bottom: 0.5em; /*9/18=0.5 */
 }
 
+h2 {
+  padding-top: 0.5em;
+}
+p {
+  padding-bottom: 0.5em;
+}
+
 li {
   padding-bottom: 1em; /*18/18=1em */
 }
@@ -48,6 +55,11 @@ input {
 
 /*chose 355 px because thats when the
 inputs would shift and mess up the format*/
+@media screen and (min-width: 220px) {
+  h1 {
+    font-size: 120%
+  }
+}
 
 @media screen and (min-width: 270px) {
   h1 {
@@ -64,11 +76,20 @@ inputs would shift and mess up the format*/
 
 @media screen and (min-width: 580px) {
   h1 {
-    font-size: 250%
+    font-size: 200%
   }
   html {
     display: inline-block;
     justify-content: center;
     text-align: center;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  h1 {
+    font-size: 230%
+  }
+  html {
+    font-size: 110%
   }
 }
