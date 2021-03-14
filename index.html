@@ -7,6 +7,8 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="assets/css/resets.css" />
     <link rel="stylesheet" href="assets/css/screen.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="assets/js/site.js"></script>
   </head>
 
   <body>
@@ -14,7 +16,7 @@
       <h1>Rec Soccer League Sign Up!</h1>
       <h2>Please fill out the information below:</h2>
       <p>Must be 18+ to play in this league.</p>
-      <form id="form-one" method="get" autocomplete="on" action="#null" onclick= "return validationEvent()">
+      <form id="form-one" method="get" autocomplete="on" action="#null" onsubmit= "return validationEvent()">
         <fieldset>
           <div id="wrap">
             <ul class="form-inputs">
@@ -51,7 +53,5 @@
         </fieldset>
       </form>
     </main>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="assets/js/site.js"></script>
   </body>
 </html>
